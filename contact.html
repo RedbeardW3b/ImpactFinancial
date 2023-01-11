@@ -118,16 +118,21 @@
 
     <!-- Contact Start -->
     <!-- Formspree code start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <h5 class="display-5 mb-4">Let's Get Started!</h5>
     <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdovojln" method="post">
         <fieldset id="fs-frm-inputs">
             <label for="full-name">Full Name</label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
             <label for="business-name">Business Name</label>
-            <input type="text" name="-business-name" id="business-name" placeholder="Business Name Here" required="">
+            <input type="text" name="Business-name" id="business-name" placeholder="Company" required="">
             <label for="email-address">Email Address</label>
             <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
-            <label for="telephone">Telephone Number (Optional)</label>
-            <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
+            <label for="telephone">Telephone Number</label>
+            <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555" required="">
             <label for="message">Message</label>
             <textarea rows="6" name="Message" id="message" placeholder="Write message here" required=""></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
@@ -152,8 +157,8 @@
             width: 100%;
             padding: 0;
             margin: 0;
-            -webkit-appearance: none;
-            -moz-appearance: none;
+            -webkit-appearance: match-parent;
+            -moz-appearance: match-parent;
         }
     
         #fs-frm label,
@@ -255,6 +260,10 @@
         
         
     </style>
+    </div>
+    </div>
+    </div>
+    </div>
     <!-- Formspree code end -->
     <!-- Paid for code start -->
     <!-- <div class="contact-form bg-white shadow rounded p-5">
